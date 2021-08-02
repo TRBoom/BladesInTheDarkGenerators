@@ -19,7 +19,7 @@ Stand-alone Instructions:
 You only need the "executable" folder and its contents to run the 
 generator. Just double-click the .exe to run.
 
-![generator_screenshot](https://user-images.githubusercontent.com/70915299/126913351-a50b0d98-91db-48f0-881f-d1063ef5a674.PNG)
+![generator_screenshot](generator_screenshot.PNG)
 
 Python instructions:
 This project was built in python and can be run from the .py files in
