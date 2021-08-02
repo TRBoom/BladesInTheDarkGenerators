@@ -1,6 +1,8 @@
 # BladesInTheDarkGenerators
-A couple of generators I built for Blades in the Dark using the tables 
+A couple of generators Tim Pasquini built for Blades in the Dark using the tables 
 in the back of the book. 
+
+I have added in a GUI interface to ease the use of the generators. 
 
 Double-click the doskvolMasterGenerator.py to launch. Enter the number
 associated with the desired option to get an automatically generated
