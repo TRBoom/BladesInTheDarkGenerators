@@ -25,7 +25,7 @@ def print_person(quality):
     """This prints a random description of a person, the "quality" argument
     needs to be "rare" or "common"""
     if quality == "rare":
-        print(
+        return(
             f"""
         {rc(first_name)} '{rc(aliases)}' {rc(family_name)}:
         A/An {rc(appearance)} {rc(gender)} {random.choices(heritage, weights=[50, 10, 5, 5, 5, 5])[0]} wearing/using a/an {rc(style)}.
@@ -34,7 +34,7 @@ def print_person(quality):
         """
         )
     elif quality == "common":
-        print(
+        return(
             f"""
         {rc(first_name)} '{rc(aliases)}' {rc(family_name)}:
         A {rc(appearance)} {rc(gender)} {random.choices(heritage, weights=[50, 10, 5, 5, 5, 5])[0]} wearing/using a/an {rc(style)}.
@@ -43,7 +43,7 @@ def print_person(quality):
         """
         )
     else:
-        print("Please enter 'rare' or 'common' as an argument")
+        return("Please enter 'rare' or 'common' as an argument")
 
 
 heritage = json_retreiver("People/heritage.json")

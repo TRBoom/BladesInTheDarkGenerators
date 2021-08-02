@@ -22,7 +22,7 @@ def rc(variable):
 
 def print_street():
     """This will print text describing a random street"""
-    print(
+    return(
         f"""
     This {rc(moods)} {rc(infastructure_type)} is primarily used for {rc(use)}.
     (A/An) {rc(sights).capitalize()} catch(es) your eye. You hear {rc(sounds)} 

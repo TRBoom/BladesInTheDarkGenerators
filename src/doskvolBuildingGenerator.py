@@ -25,19 +25,19 @@ def print_building(quality):
     """This prints a random description of a building, the "quality" argument
     needs to be "rare" or "common"""
     if quality == "rare":
-        print(
+        return(
             f"""
         This {rc(exterior_details)} {rc(material)} {rc(rare_use)} is notable
         for it's {rc(interior_details)} and {rc(interior_details)}"""
         )
     elif quality == "common":
-        print(
+        return(
             f"""
         This {rc(exterior_details)} {rc(material)} {rc(common_use)} is
         notable for it's {rc(interior_details)} and {rc(interior_details)}"""
         )
     else:
-        print("Please enter 'rare' or 'common' as an argument")
+        return("Please enter 'rare' or 'common' as an argument")
 
 
 common_use = json_retreiver("Buildings/common_use.json")

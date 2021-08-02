@@ -22,7 +22,7 @@ def rc(variable):
 
 def print_demon():
     """This will print text describing a new demon"""
-    print(
+    return(
         f"""
     Tremble at the sight of {rc(demon_name)}!
     Behold, {rc(demon_features)} and {rc(demon_features)}.

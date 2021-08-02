@@ -22,7 +22,7 @@ def rc(variable):
 
 def print_ghost():
     """This will print text that describes a new ghost"""
-    print(
+    return(
         f"""
     This is the ghost of {rc(first_name)} '{rc(aliases)}' {rc(family_name)}.
     There is/are (a/an) {rc(ghostly_effect)} when this {rc(ghost_trait)} spirit appears!
