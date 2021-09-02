@@ -1,12 +1,13 @@
 # BladesInTheDarkGenerators
 This is a generator Tim Pasquini built for Blades in the Dark using the tables 
-in the back of the book. The primary intent is speed of use and simplicity
+in the back of the book. I have come along behind him and added in a GUI interface to ease the use 
+of the generators. 
+
+The primary intent is speed of use and simplicity
 of operation in order to minimize narrative disruptions caused by complex 
 rolls across multiple tables. Ideally this makes your narrative seamless
 during the occasions where a GM needs something on the fly. 
 
-I have come along behind him and added in a GUI interface to ease the use 
-of the generators. 
 
 The generator outputs are loosely inspired from Dwarf Fortress's 
 presentation when describing procedurally generated content. Due to tense, 
