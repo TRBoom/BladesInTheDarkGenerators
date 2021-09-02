@@ -16,8 +16,13 @@ require a bit of creative interpretation.
 Feel free to make suggestions or report errors!
 
 Stand-alone Instructions:
-You only need the "executable" folder and its contents to run the 
-generator. Just double-click the .exe to run.
+The executable has been removed due to it throwing anti-virus warnings. 
+I used PyInstaller to compile and googling shows it's a common false-positive that
+occurs with this compiler. I cannot verify what happens inside of PyInstaller
+so out of an abundance of caution the .exe will be removed. If you really want it you 
+can find it in older commits, but it is missing features and you use at your own risk. 
+I will investigate a new way to compile the code to an executable, but for 
+now you'll need python or you can see if one of the forks has a solution for you.
 
 ![generator_screenshot](generator_screenshot.PNG)
 
@@ -28,19 +33,20 @@ doskvolMasterGenerator.py to launch.
 
 General operation info:
 
-Enter the number associated with the desired option to get an 
-automatically generated description.
-
+If you're running the Master Generator, just enter the number associated with the 
+desired option to get an automatically generated description for that menu item. The
+description will automatically be copied to your clipboard for easy pasting into
+a VTT, chat, or your notes.
 
 Each generator exists as individual module that can be run from a
 terminal instance. Buildings and People require "common" or "rare" as
 a terminal argument to work correctly.
 
 For ease of modification of the various table contents, each table from 
-the book is it's own .json file which gets imported as a python list.
+the book is its own .json file which gets imported as a python list.
 
 If the table options had more than one option for a given roll, they 
-were split out so each is it's own entry.
+were split out so each is its own entry.
 
 Due to inconsistency on the tables, sometimes the output is imperfect in
 terms of case/tense/pronoun/etc.
@@ -66,4 +72,8 @@ Ghosts:
 Creates a random ghost using the ghost tables on page 304. 
 Also uses the names/aliases from page 303 to give a name to the ghost.
 
+Cults:
+Create a cult to a random forgotten god and assign a random religious practice to it using data on page 305.
 
+Scores:
+Create a random score using the data for pages 306 and 307.
